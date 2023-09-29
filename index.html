@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    
+    
+    <title>Sorting Algorithms</title>
+    <script type="module" crossorigin src="/assets/index-49639ba1.js"></script>
+    <link rel="stylesheet" href="/assets/index-c474bb2b.css">
+  </head>
+  <body>
+
+    <div class="navbar">
+
+      <div class="inputs">
+
+        <select id="input-sort-type">
+          <option value="gnome">Gnome Sort</option>
+          <option value="custom">Custom Sort</option>
+          <option value="bucket">Bucket Sort</option>
+          <option value="insertion">Insertion Sort</option>
+          <option value="quick">Quick Sort</option>
+        </select>
+
+        <input id="input-array-size" type="number" value="500" />
+
+        <p id="output-time">Time: ms</p>
+
+      </div>
+      
+
+      <div class="buttons">
+
+        <button id="reload" class="icon">
+          <img src="/reload.svg" />
+        </button>
+  
+        <button id="rewind-back" class="icon">
+          <img src="/rewind-back.svg" />
+        </button>
+  
+        <button id="rewind-forward" class="icon">
+          <img src="/rewind-forward.svg" />
+        </button>
+
+      </div>
+
+    </div>
+
+    <div class="display">
+      <canvas id="display"></canvas>
+    </div>
+
+    
+  </body>
+</html>
